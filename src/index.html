@@ -1,0 +1,63 @@
+---
+template: base
+---
+
+<section class="top-bar">
+  <a class="image-link" href="https://en.wikipedia.org/wiki/J._M._W._Turner" aria-label="J.M.W. Turner">
+    <picture>
+      <source media="(min-width:1200px)" srcset="/img/turner-1920.jpg" />
+      <source media="(min-width:992px)" srcset="/img/turner-1200.jpg" />
+      <source media="(min-width:768px)" srcset="/img/turner-992.jpg" />
+      <source media="(min-width:576px)" srcset="/img/turner-768.jpg" />
+      <img class="top-bar-image" src="/img/turner-576.jpg" id="turner-image" alt="J.M.W. Turner"/>
+    </picture>
+  </a>
+  <a class="image-link" href="https://en.wikipedia.org/wiki/Big_Joe_Turner" aria-label="Big Joe Turner">
+    <picture>
+      <source media="(min-width:1200px)" srcset="/img/big-joe-1920.jpg" />
+      <source media="(min-width:992px)" srcset="/img/big-joe-1200.jpg" />
+      <source media="(min-width:768px)" srcset="/img/big-joe-992.jpg" />
+      <source media="(min-width:576px)" srcset="/img/big-joe-768.jpg" />
+      <img
+        class="top-bar-image"
+        src="/img/big-joe-576.jpg"
+        id="big-joe-image"
+        alt="Big Joe Turner"
+      />
+    </picture>
+  </a>
+</section>
+
+<main class="index-main">
+  <h1 class="index-title">
+    <span class="index-title-span"
+      >Hi, I'm <a href="/">Joe&nbsp;Turner</a>.</span
+    >
+  </h1>
+  <p class="index-subtitle">
+    (No, not <button class="button-link" id="turner-button">that one</button>).
+  </p>
+  <p class="index-subtitle">
+    (Or <button class="button-link" id="big-joe-button">that one</button>).
+  </p>
+  <p>
+    I make
+    <button class="button-link" id="fun-things">fun&nbsp;things</button> using
+    <a href="https://github.com/oampo/">code</a>. Like these:
+  </p>
+  <nav class="main-nav">
+    <ul class="main-nav-list">
+      <li class="main-nav-list-item">Knitting</li>
+      <li class="main-nav-list-item">Gaming</li>
+      <li class="main-nav-list-item">Brewing</li>
+      <li class="main-nav-list-item">Listening</li>
+    </ul>
+  </nav>
+  <p>
+    I work for <a href="https://www.thinkful.com/">Thinkful</a> making useful
+    things using code, and teaching other people to make things using code.
+  </p>
+</main>
+
+<script src="/js/top-bar.js"></script>
+<script src="/js/letter-fall.js"></script>
