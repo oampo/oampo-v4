@@ -4,9 +4,9 @@
 	branch = master
 [submodule "projects/yolk"]
 	path = projects/yolk
-	url = https://github.com:oampo/yoke-designer
+	url = https://github.com/oampo/yoke-designer
 	branch = master
 [submodule "projects/siren-song"]
 	path = projects/siren-song
-	url = https://github.com:oampo/siren-song.git
+	url = https://github.com/oampo/siren-song
 	branch = master
