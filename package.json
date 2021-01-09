@@ -9,9 +9,11 @@
     "build:oampo": "npm run clean:oampo && node generate.js",
     "build:yolk": "npm run clean:yolk && cd projects/yolk && npm run build && cp -r build $INIT_CWD/build/yolk",
     "build:siren-song": "npm run clean:siren-song && cd projects/siren-song && npm run build -- --public-url /siren-song/ && cp -r build $INIT_CWD/build/siren-song",
+    "build:fireflies": "npm run clean:fireflies && cd projects/fireflies && npm run build -- --public-url /fireflies/ && cp -r build $INIT_CWD/build/fireflies",
     "clean:oampo": "rm -rf build",
     "clean:yolk": "rm -rf build/yolk",
     "clean:siren-song": "rm -rf build/siren-song",
+    "clean:fireflies": "rm -rf build/fireflies",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Joe Turner <joe@oampo.co.uk>",
