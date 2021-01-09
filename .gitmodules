@@ -1,0 +1,12 @@
+[submodule "projects/fireflies"]
+	path = projects/fireflies
+	url = git@github.com:oampo/fireflies.git
+	branch = master
+[submodule "projects/yolk"]
+	path = projects/yolk
+	url = git@github.com:oampo/yoke-designer.git
+	branch = master
+[submodule "projects/siren-song"]
+	path = projects/siren-song
+	url = git@github.com:oampo/siren-song.git
+	branch = master
