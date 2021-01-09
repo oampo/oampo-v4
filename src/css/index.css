@@ -115,10 +115,6 @@ p:last-child {
   box-shadow: none;
 }
 
-.main-nav-list-item:nth-child(even) {
-  padding-left: 40px;
-}
-
 .button-link {
   font-family: inherit;
   font-size: inherit;
@@ -138,6 +134,14 @@ p:last-child {
 .button-link:hover, .button-link:focus {
   box-shadow: 0 10px 0 0 #85cee0;
 }
+
+@media (min-width: 576px) {
+  .main-nav-list {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
 
 @media (min-width: 992px) {
   .index-main {
